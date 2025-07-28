@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Newport Family and Sports Chiropractic</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        header {
+            background-color: #2a4d69;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            background-color: #4a8ebb;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .content h2 {
+            color: #2a4d69;
+            margin-bottom: 1rem;
+        }
+        .values {
+            margin-top: 2rem;
+        }
+        .value {
+            margin-bottom: 1.5rem;
+        }
+        .value h3 {
+            color: #e76f51;
+            margin-bottom: 0.5rem;
+        }
+        .btn {
+            background-color: #e76f51;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background-color: #d65f43;
+        }
+        footer {
+            background-color: #2a4d69;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="path/to/logo.png" alt="Newport Family and Sports Chiropractic Logo">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <h2>About Us</h2>
+        <p>At Newport Family and Sports Chiropractic, we are dedicated to transforming lives through exceptional chiropractic care. Our practice is built on a foundation of compassion, integrity, and a commitment to empowering our community.</p>
+        
+        <h2>Our Mission</h2>
+        <p>To provide top quality chiropractic care to our community by creating a friendly, welcoming environment where patients feel supported and empowered. Through personalized care and a commitment to chiropractic principles, we help individuals live pain-free, healthier lives and reach their fullest potential.</p>
+        
+        <h2>Our Vision</h2>
+        <p>To inspire others to prioritize their health and well-being through the power of chiropractic care one adjustment at a time.</p>
+        
+        <h2>Our Core Values</h2>
+        <p>Our core values guide every interaction, treatment, and decision within our practice:</p>
+        <div class="values">
+            <div class="value">
+                <h3>Compassion</h3>
+                <p>We listen with empathy and treat every individual with kindness and respect. Compassion is the foundation of meaningful patient-centered care.</p>
+            </div>
+            <div class="value">
+                <h3>Integrity</h3>
+                <p>We uphold honesty, transparency, and ethical behavior in all aspects of our practice. Patients can trust that their health and well-being are our top priorities.</p>
+            </div>
+            <div class="value">
+                <h3>Excellence</h3>
+                <p>We strive for the highest standards in chiropractic care, continuously improving our skills and knowledge to provide the most effective, evidence-informed treatments.</p>
+            </div>
+            <div class="value">
+                <h3>Empowerment</h3>
+                <p>We educate and support our patients to take charge of their health journey. We believe informed patients make better health decisions and experience greater long-term wellness.</p>
+            </div>
+            <div class="value">
+                <h3>Community</h3>
+                <p>We are committed to fostering a welcoming, inclusive environment where everyone feels valued. We aim to positively impact not only individual lives but also the broader community through holistic health practices.</p>
+            </div>
+        </div>
+        <a href="contact.html" class="btn">Get in Touch</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Newport Family and Sports Chiropractic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
