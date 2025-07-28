@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Newport Family and Sports Chiropractic</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        header {
+            background-color: #2a4d69;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            background-color: #4a8ebb;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .content h2 {
+            color: #2a4d69;
+            margin-bottom: 1rem;
+        }
+        .service {
+            margin-bottom: 2rem;
+        }
+        .service h3 {
+            color: #e76f51;
+            margin-bottom: 0.5rem;
+        }
+        .btn {
+            background-color: #e76f51;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background-color: #d65f43;
+        }
+        footer {
+            background-color: #2a4d69;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="path/to/logo.png" alt="Newport Family and Sports Chiropractic Logo">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Family Chiropractic Care</h3>
+            <p>We provide gentle, personalized chiropractic care for all ages, from children to seniors, to support overall wellness and pain-free living.</p>
+        </div>
+        <div class="service">
+            <h3>Sports Injury Rehabilitation</h3>
+            <p>Our specialized treatments help athletes recover from injuries, improve performance, and prevent future issues through targeted adjustments and therapies.</p>
+        </div>
+        <div class="service">
+            <h3>Spinal Adjustments</h3>
+            <p>Precise spinal adjustments to restore alignment, reduce pain, and enhance mobility for both families and active individuals.</p>
+        </div>
+        <div class="service">
+            <h3>Wellness and Preventive Care</h3>
+            <p>Proactive care plans to maintain health, boost energy, and support long-term well-being for the whole family.</p>
+        </div>
+        <a href="contact.html" class="btn">Book an Appointment</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Newport Family and Sports Chiropractic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
