@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newport Family and Sports Chiropractic</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        header {
+            background-color: #2a4d69;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            background-color: #4a8ebb;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem;
+            background-color: #d9e4dd;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        .btn {
+            background-color: #e76f51;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #d65f43;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .content h2 {
+            color: #2a4d69;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #2a4d69;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="path/to/logo.png" alt="Newport Family and Sports Chiropractic Logo">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Newport Family and Sports Chiropractic</h1>
+        <p>Guided by compassion, integrity, and excellence, we empower families and athletes to live healthier, pain-free lives through personalized chiropractic care.</p>
+        <a href="contact.html" class="btn">Book an Appointment</a>
+    </div>
+    <div class="content">
+        <h2>Our Commitment</h2>
+        <p>At Newport Family and Sports Chiropractic, we’re dedicated to creating a welcoming environment where every patient feels supported. Discover how our values-driven care can help you reach your fullest potential.</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Newport Family and Sports Chiropractic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
