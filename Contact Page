@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Newport Family and Sports Chiropractic</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        header {
+            background-color: #2a4d69;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            background-color: #4a8ebb;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .content h2 {
+            color: #2a4d69;
+            margin-bottom: 1rem;
+        }
+        .contact-info {
+            margin-bottom: 2rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        input, textarea {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .btn {
+            background-color: #e76f51;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #d65f43;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            margin-top: 2rem;
+        }
+        footer {
+            background-color: #2a4d69;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="path/to/logo.png" alt="Newport Family and Sports Chiropractic Logo">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> Newport Center – 660 Newport Center Drive, Suite 1250, Newport Beach, CA 92660</p>
+            <p><strong>Phone:</strong> (949) 123-4567 (Placeholder - Please provide)</p>
+            <p><strong>Email:</strong> info@newportchiro.com (Placeholder - Please provide)</p>
+        </div>
+        <h2>Send Us a Message</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.366496628781!2d-117.87455368477763!3d33.61716198072295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcde4a0f6b6e7f%3A0x5b8f1c8c8a0c3b7e!2s660%20Newport%20Center%20Dr%2C%20Newport%20Beach%2C%20CA%2092660!5e0!3m2!1sen!2sus!4v1697051234567!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2025 Newport Family and Sports Chiropractic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
